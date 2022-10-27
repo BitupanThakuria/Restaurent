@@ -4,7 +4,7 @@ import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <SafeAreaView style={styles.SafeAreaView}>
-      <View style={{ padding: 16 }}>
+      <View style={{ padding: 16, backgroundColor: "green" }}>
         <Text>Search bar</Text>
       </View>
       <View style={{ flex: 1, padding: 16, backgroundColor: "blue" }}>
